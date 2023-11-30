@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&family=Orbitron&family=Signika:wght@300&family=Source+Code+Pro:ital,wght@0,500;1,400&display=swap');
+*{
+    font-family: 'Itim', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    
+}
+body{
+    background: linear-gradient(to left, #2980b9, #2c3e50);
+}
+.up-icons{
+    width: 25px;
+    padding: 2px;
+}
+input{
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    z-index: 10;
+    box-shadow:2px 4px rgb(168, 192, 237) ;
+   
+
+}
+.down-icons{
+    width: 40px;
+    padding: 5px;
+}
+img{
+    width: 150px;
+}
+.container,#mid-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#other-info{
+    display: flex;
+
+}
+#humi-div,#wind-div{
+    padding: 30px;
+}
+
+h2,.digi{
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+}
+#loc{
+    color: whitesmoke;
+}
+
+#search-img-div,#self-loc-div{
+    padding: 17px 20px;
+    border: none;
+    margin: 5px;
+    border-radius: 100%;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 2px 4px rgb(168, 192, 237);
+}
+
+#search-img-div:hover{
+    box-shadow: none;
+    transition: 0.3s;
+}
+#self-loc-div:hover{
+    box-shadow: none;
+    transition: 0.3s;
+}
+input:hover{
+    box-shadow: none;
+    transition: 0.3s;
+}
+#wind-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
